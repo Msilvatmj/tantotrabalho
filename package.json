@@ -1,0 +1,23 @@
+{
+  "name": "vscodehome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Msilvatmj/tantotrabalho.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Msilvatmj/tantotrabalho/issues"
+  },
+  "homepage": "https://github.com/Msilvatmj/tantotrabalho#readme",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15"
+  }
+}
