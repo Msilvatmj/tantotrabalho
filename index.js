@@ -10,6 +10,12 @@ app.use(express.static('./public'))
   response.sendFile(path.join(_dirname, '/public/index.html'))
 }) 
  
+app.get('/navbar',(req,res)=>{
+  res.sendFile(path.join(__dirname,'.public/navbar.html'))
+
+})
+
+
 const port = 3000;
 
 app.listen(port, function (){
